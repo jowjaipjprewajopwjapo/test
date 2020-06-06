@@ -29,9 +29,13 @@
 
 
 
-[link target=*select1]【１】買う[endlink][r]
-[link target=*select2]【２】買わない[endlink][r]
+; [link target=*select1]【１】買う[endlink][r]
+; [link target=*select2]【２】買わない[endlink][r]
+; [s]
 
+; [glink] 文字ボタンオブジェクトを出します。
+[glink x="0" y="200" width="830" text="【１】買う" target="*select1" color="orange"]
+[glink x="0" y="280" width="830" text="【２】買わない" target="*select2" color="orange"]
 [s]
 
 *select1
